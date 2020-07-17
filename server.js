@@ -20,9 +20,9 @@ app.listen(port, () => {
   console.log('listening on %d', port);
 });
 
-const test = async() => {
+const test = async () => {
   const data = await getRates();
-  console.log(data);
-}
+  console.log('data', data);
+};
 
 test();
